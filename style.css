@@ -1,0 +1,49 @@
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.card-footer .btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 13px;
+    width: 100%;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.btn {
+	align-items: center;
+    left: 0;
+    bottom: 0;
+    padding: 13px;
+    width: 30%;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;}
+    
+.result{
+    display: none;
+}
+
+.card-footer .btn:hover {
+    opacity: 0.8;
+    cursor: pointer;}
